@@ -1,0 +1,6 @@
+.main {
+  height: 100vh;
+  background-image: url("../assets/images/ohsomeNowStats-background.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

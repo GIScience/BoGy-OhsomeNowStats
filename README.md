@@ -20,9 +20,13 @@ Run `ng test --watch=false` to execute the unit tests __once__ via [Karma](https
 
 Run `ng test` to execute the unit tests __continuously__ via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+__Note:__ Per default the tests are run in Firefox headless mode. For other browsers, you can use
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng test --browsers=Chrome,Firefox
+```
+
+or change the configuration in `karma.conf.js`.
 
 ## Further help
 

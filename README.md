@@ -26,6 +26,12 @@ __Note:__ Per default the tests are run in Firefox headless mode. For other brow
 ng test --browsers=Chrome,Firefox
 ```
 
+Test only a specific test file or folder:
+
+```bash
+ng test --include=app/status-banner
+```
+
 or change the configuration in `karma.conf.js`.
 
 ## Further help

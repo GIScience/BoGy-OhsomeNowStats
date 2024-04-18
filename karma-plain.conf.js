@@ -14,7 +14,7 @@ module.exports = function (config) {
       { pattern: 'src/tdd/**/*.spec.ts', watched: true },
     ],
     preprocessors: {
-      "src/tdd/**/*.ts": "karma-typescript" // *.tsx for React Jsx
+      "src/**/*.ts": "karma-typescript" // *.tsx for React Jsx
     },
     plugins: [
       require('karma-jasmine'),

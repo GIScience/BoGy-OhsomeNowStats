@@ -16,9 +16,17 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test --watch=false` to execute the unit tests __once__ via [Karma](https://karma-runner.github.io).
+Run 
+```bash
+ng test --no-watch
+```
+to execute the unit tests __once__ via [Karma](https://karma-runner.github.io).
 
-Run `ng test` to execute the unit tests __continuously__ via [Karma](https://karma-runner.github.io).
+Run 
+```bash
+ng test
+``` 
+to execute the unit tests __continuously__ via [Karma](https://karma-runner.github.io).
 
 __Note:__ Per default the tests are run in Firefox headless mode. For other browsers, you can use
 

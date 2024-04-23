@@ -29,19 +29,16 @@ export class StatusBannerComponent implements OnInit {
 
                 }
 
-
             } else {
                 console.log("NO announcement in Statuscake available!!!")
             }
         });
-
 
     }
 
     ngOnInit(): void {
         this.search()
     }
-
 
 }
 

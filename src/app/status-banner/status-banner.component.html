@@ -1,3 +1,5 @@
-<div class="status-banner">
-  <p>OhsomeNowStats will not receive new data on the 27.04.2024 due to a planned maintenance.</p>
+<div *ngIf="show" class="status-banner">
+    <div [innerHtml]="announcement"></div>
+    <button (click)="hide()" type="button">hide</button>
+
 </div>

@@ -1,4 +1,22 @@
 .status-banner {
-  position: absolute;
-  bottom: 0px;
+
+    background-color: red; /*color*/
+    width: 2500px;
+    height: 150px;
+    text-align: center; /*centers text horizontally*/
+    margin: 0 auto; /*centers banner horizontally*/
+    position: absolute;
+    top: 1100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: large;
+
+
 }
+
+
+
+
+
+

@@ -1,19 +1,35 @@
+/* banner.css */
 .status-banner {
-    background-color: red; /*color*/
-    width: 2500px;
-    height: 150px;
-    text-align: center; /*centers text horizontally*/
-    margin: 0 auto; /*centers banner horizontally*/
+    width: 100%;
+    height: 100px;
+    background-color: indianred;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #ccc;
+    border-top: 5px solid #ccc;
+    font-size: large;
+    color: black;
     position: absolute;
-    top: 1100px;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    font-size: large;
+
 }
 
+button {
+    background-color: snow;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
 
-
-
-
-
+    left: 95%;
+    right:0;
+    height: 40px;
+    width: 70px;
+}
